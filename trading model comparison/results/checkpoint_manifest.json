@@ -1,0 +1,56 @@
+{
+    "timestamp_start": "2026-10-28T18:11:11.051721+00:00",
+    "timestamp_completion": "2026-10-28T19:02:40.231044+00:00",
+    "random_seed": 42,
+    "cost_bps": 20.0,
+    "vol_target": 0.15,
+    "epochs": 5,
+    "source": "benchmark",
+    "walk_forward": false,
+    "monte_carlo_paths": 1,
+    "checkpoints": {
+        "DQN_Discrete": {
+            "path": "results\\ckpt_DQN_Discrete\\best_model.pt",
+            "size_bytes": 554741,
+            "modified_time_utc": "2026-10-28T18:45:35.809841+00:00",
+            "sha256": "67ede8d73c5fe202feeb19d669e80b2e4e1a1b9008ce18f4b6439af2ba1d601b",
+            "status": "VERIFIED_PRESENT"
+        },
+        "DQN_Continuous": {
+            "path": "results\\ckpt_DQN_Continuous\\best_model.pt",
+            "size_bytes": 559605,
+            "modified_time_utc": "2026-10-28T18:53:13.542358+00:00",
+            "sha256": "9b1c7999c46acf1f227cc4d7618fa8e931b6d618ce8d70171d50a55f3039d41c",
+            "status": "VERIFIED_PRESENT"
+        },
+        "PG_Discrete": {
+            "path": "results\\ckpt_PG_Discrete\\best_model.pt",
+            "size_bytes": 405557,
+            "modified_time_utc": "2026-10-28T18:54:55.072750+00:00",
+            "sha256": "35aa7fce77e81272c55164db37528674e6e776f3b5a894096e8a4759da881b0e",
+            "status": "VERIFIED_PRESENT"
+        },
+        "PG_Continuous": {
+            "path": "results\\ckpt_PG_Continuous\\best_model.pt",
+            "size_bytes": 406261,
+            "modified_time_utc": "2026-10-28T19:01:37.197696+00:00",
+            "sha256": "750335245f0a2a954eac4dec74eea29028ece209ed4c767942f81f4c66a1b3fd",
+            "status": "VERIFIED_PRESENT"
+        },
+        "A2C_Discrete": {
+            "path": "results\\ckpt_A2C_Discrete\\best_model.pt",
+            "size_bytes": 416757,
+            "modified_time_utc": "2026-10-28T19:02:09.283627+00:00",
+            "sha256": "b1db0916e8280ce7c99fc77842b49f96263fd121033ff8d7cf707778bf1ab257",
+            "status": "VERIFIED_PRESENT"
+        },
+        "A2C_Continuous": {
+            "path": "results\\ckpt_A2C_Continuous\\best_model.pt",
+            "size_bytes": 417525,
+            "modified_time_utc": "2026-10-28T19:01:14.147175+00:00",
+            "sha256": "55aa18c3d4db62ac331e6f7fa2498bedb1406965b4ed8f1ceb57c94893ed411f",
+            "status": "VERIFIED_PRESENT"
+        }
+    },
+    "all_checkpoints_synchronized": true
+}
